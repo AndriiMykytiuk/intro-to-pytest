@@ -3,10 +3,10 @@ on:
   workflow_dispatch:
     inputs:
       platform:
-        description: 'Select platform'
+        description: 'Select platform: "Android" or "iOS"'
         required: true
       marker:
-        description: 'Select tests you want to run'
+        description: 'Select tests you want to run, e.g. "facebook"'
         required: true
         
 
